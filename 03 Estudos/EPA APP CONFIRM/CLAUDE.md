@@ -39,6 +39,15 @@
 | [[notas/app/arquitetura]] | Stack, estrutura de arquivos, vistas geradas |
 | [[notas/app/versoes]] | Changelog planejado (v0.1 → v1.0) |
 
+### Código — Documentação Técnica dos Arquivos
+
+| Nota | Arquivo | Conteúdo |
+|---|---|---|
+| [[notas/codigo/app-py]] | `app.py` | Paleta, helpers, 4 vistas matplotlib, classe App, dict `p`, limitações |
+| [[notas/codigo/export-dxf-py]] | `export_dxf.py` | Layers DXF, estilo de cota EPA, geometria do corte/superior, limitações |
+| [[notas/codigo/export-html3d-py]] | `export_html3d.py` | Template Three.js, geometria 3D, materiais, cotas 3D, OrbitControls |
+| [[notas/codigo/ambiente]] | `.venv` / `run.bat` | Pacotes pinados, como recriar, como rodar |
+
 ### Sessões
 
 | Nota | Conteúdo |

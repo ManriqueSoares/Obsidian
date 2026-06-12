@@ -1,10 +1,12 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.patches import FancyArrowPatch
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
+from export_dxf import exportar_dxf
+from export_html3d import exportar_html3d
 
 # ─── Paleta de cores ────────────────────────────────────────────────────────
 COR = {
@@ -382,9 +384,16 @@ class App(tk.Tk):
         scrollbar = ttk.Scrollbar(frame_esq, orient="vertical",
                                   command=canvas_scroll.yview)
         canvas_scroll.configure(yscrollcommand=scrollbar.set)
-        # Botão empacotado ANTES do scroll para reservar espaço na base
+        # Botões empacotados ANTES do scroll para reservar espaço na base
         ttk.Button(frame_esq, text="▶  Gerar Visualização",
-                   command=self._gerar).pack(side="bottom", pady=10, fill="x", padx=4)
+                   command=self._gerar).pack(side="bottom", pady=(0, 8), fill="x", padx=4)
+
+        frame_export = ttk.Frame(frame_esq)
+        frame_export.pack(side="bottom", fill="x", padx=4, pady=(0, 4))
+        ttk.Button(frame_export, text="⬇ DXF",
+                   command=self._exportar_dxf).pack(side="left", expand=True, fill="x", padx=(0, 2))
+        ttk.Button(frame_export, text="⬇ 3D HTML",
+                   command=self._exportar_html3d).pack(side="left", expand=True, fill="x", padx=(2, 0))
 
         scrollbar.pack(side="right", fill="y")
         canvas_scroll.pack(side="left", fill="both", expand=True)
@@ -485,6 +494,43 @@ class App(tk.Tk):
             gerar_visualizacao(p, self.frame_canvas)
         except Exception as exc:
             messagebox.showerror("Erro", str(exc))
+
+    def _exportar_dxf(self):
+        try:
+            p = self._coletar()
+            path = filedialog.asksaveasfilename(
+                defaultextension=".dxf",
+                filetypes=[("AutoCAD DXF", "*.dxf"), ("Todos", "*.*")],
+                initialfile="transformador_distancias.dxf",
+                title="Salvar DXF",
+            )
+            if not path:
+                return
+            exportar_dxf(p, path)
+            messagebox.showinfo("DXF exportado",
+                                f"Arquivo salvo em:\n{path}\n\n"
+                                "Abre em AutoCAD, FreeCAD, BricsCAD ou LibreCAD.")
+        except Exception as exc:
+            messagebox.showerror("Erro ao exportar DXF", str(exc))
+
+    def _exportar_html3d(self):
+        try:
+            p = self._coletar()
+            path = filedialog.asksaveasfilename(
+                defaultextension=".html",
+                filetypes=[("HTML 3D", "*.html"), ("Todos", "*.*")],
+                initialfile="transformador_3d.html",
+                title="Salvar visualização 3D",
+            )
+            if not path:
+                return
+            exportar_html3d(p, path)
+            messagebox.showinfo("3D HTML exportado",
+                                f"Arquivo salvo em:\n{path}\n\n"
+                                "Abra no Chrome ou Edge.\n"
+                                "(Requer conexão à internet para carregar Three.js)")
+        except Exception as exc:
+            messagebox.showerror("Erro ao exportar HTML 3D", str(exc))
 
 
 # ─── Entry point ─────────────────────────────────────────────────────────────
