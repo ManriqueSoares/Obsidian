@@ -1,0 +1,2 @@
+
+![[aterramentocopel.png]]

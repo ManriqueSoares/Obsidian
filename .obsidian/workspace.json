@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "8e5c1dccff690dc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b312b16a9226911d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "545f43b18fbb57f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Estudos/EPA/Fundamentos Eletromagnéticos — Transformadores de Potência.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fundamentos Eletromagnéticos — Transformadores de Potência"
+            }
+          },
+          {
+            "id": "a11361b2281403ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Estudos/Livros/Notas livros.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notas livros"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f8508d9c428bf10",
+    "type": "split",
+    "children": [
+      {
+        "id": "81f2988ef44ad038",
+        "type": "tabs",
+        "dimension": 81.10367892976589,
+        "children": [
+          {
+            "id": "db080cc2cc99401b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "4e66832c071113eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "1916",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "13d3b3f096a57d13",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a34b93b9aa17bdae",
+        "type": "tabs",
+        "dimension": 18.896321070234116,
+        "children": [
+          {
+            "id": "ccd897b803d05fa5",
+            "type": "leaf",
+            "state": {
+              "type": "online.tokuhirom.obsidian-stopwatch-plugin",
+              "state": {},
+              "icon": "clock",
+              "title": "Stopwatch"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 607.5124969482422
+  },
+  "right": {
+    "id": "cd40a3db1d1f9904",
+    "type": "split",
+    "children": [
+      {
+        "id": "57dbaee122bea2d4",
+        "type": "tabs",
+        "dimension": 42.5686591276252,
+        "children": [
+          {
+            "id": "4cf446e53f8a9318",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Códigos/Sistema de Stock/Pasted image 20260518170930.png",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Pasted image 20260518170930"
+            }
+          },
+          {
+            "id": "722600b999fb57e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Códigos/Sistema de Stock/Pasted image 20260518170930.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Pasted image 20260518170930"
+            }
+          },
+          {
+            "id": "782dcf254d2a5f98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e86577737236e46d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "ffd8902e97b1327c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "531a7cc749f6cd17",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "7c7722be296b13b2",
+        "type": "tabs",
+        "dimension": 57.431340872374804,
+        "children": [
+          {
+            "id": "84bd3d65ae629a1c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 427.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "db080cc2cc99401b",
+  "lastOpenFiles": [
+    "README.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/isolamento/pressboard.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/isolamento/isolamento-oleo.md",
+    "03 Estudos/EPA APP CONFIRM/notas/sessoes/2026-06-12.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/resfriamento.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/parte-ativa.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/parametros-mecanicos.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/parametros-eletricos.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/nucleo.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/normas.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/isolamento",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/niveis-isolamento.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/enrolamentos.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/distancias-eletricas.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/canecos.md",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio/comutadores.md",
+    "03 Estudos/EPA APP CONFIRM/notas/calculos/tensoes-ensaio.md",
+    "03 Estudos/EPA APP CONFIRM/notas/calculos/metodologia-distancias.md",
+    "03 Estudos/EPA APP CONFIRM/notas/app/versoes.md",
+    "03 Estudos/EPA APP CONFIRM/notas/calculos/formulario.md",
+    "03 Estudos/EPA APP CONFIRM/notas/app/arquitetura.md",
+    "03 Estudos/EPA APP CONFIRM/notas/sessoes",
+    "03 Estudos/EPA APP CONFIRM/notas/dominio",
+    "03 Estudos/EPA APP CONFIRM/notas/calculos",
+    "03 Estudos/EPA APP CONFIRM/notas/app",
+    "03 Estudos/EPA APP CONFIRM/notas",
+    "03 Estudos/EPA APP CONFIRM/requirements.txt",
+    "03 Estudos/EPA APP CONFIRM/image.png",
+    "03 Estudos/EPA APP CONFIRM/CLAUDE.md",
+    "03 Estudos/EPA APP CONFIRM/app.py",
+    "03 Estudos/EPA APP CONFIRM",
+    "03 Estudos/EPA/Fundamentos Eletromagnéticos — Transformadores de Potência.md",
+    "03 Estudos/Livros/Notas livros.md",
+    "03 Estudos/Livros",
+    "03 Estudos/EPA/Folga e cordão.md",
+    "03 Estudos/EPA/Canecos.md",
+    "03 Estudos/EPA/Estudo de Parte Ativa — Distâncias Elétricas.md",
+    "BD Docs/Pasted Image 20260610110527_890.png",
+    "BD Docs/Pasted image 20260603084843.png",
+    "Sem título.canvas",
+    "BD Docs/Pasted image 20260525095529.png",
+    "BD Docs/Pasted image 20260525082843.png",
+    "Pasted Image 20260518172839_920.png",
+    "02 Códigos/Sistema de Stock/Pasted image 20260518170930.png"
+  ]
+}

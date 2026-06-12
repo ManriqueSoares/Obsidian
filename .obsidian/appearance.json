@@ -1,0 +1,12 @@
+{
+  "interfaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Cascadia Code",
+  "monospaceFontFamily": "Cascadia Code",
+  "baseFontSize": 19,
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "cssTheme": "Tokyo Night",
+  "accentColor": "#76b8fe",
+  "theme": "obsidian",
+  "showRibbon": true
+}

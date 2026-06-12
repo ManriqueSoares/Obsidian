@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "showLineNumber": true,
+  "foldIndent": true,
+  "readableLineLength": false,
+  "focusNewTab": true
+}

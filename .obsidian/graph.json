@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:EPA  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Comutadores  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Aterramentos  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Buchas  ",
+      "color": {
+        "a": 1,
+        "rgb": 5420768
+      }
+    },
+    {
+      "query": "path:Códigos  ",
+      "color": {
+        "a": 1,
+        "rgb": 1114367
+      }
+    },
+    {
+      "query": "path:\"00 Notas/Calendário\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10048224
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.35328767123288,
+  "lineSizeMultiplier": 1.04643835616438,
+  "collapse-forces": false,
+  "centerStrength": 0.299608610567515,
+  "repelStrength": 11.252446183953,
+  "linkStrength": 0.963405088062622,
+  "linkDistance": 68,
+  "scale": 0.13348389575151073,
+  "close": true
+}
